@@ -50,6 +50,16 @@ const Container = styled.div`
     flex-direction: column;
     gap: 8px;
   }
+
+  h1 {
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 425px) {
+      font-size: 20px;
+    }
+  }
 `;
 
 const LandingPage = styled.div<Props>`
